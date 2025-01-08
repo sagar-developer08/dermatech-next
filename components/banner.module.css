@@ -1,0 +1,144 @@
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.mediumLengthHero {
+  margin: 0;
+  width: 628px;
+  position: relative;
+  font-size: var(--font-size-45xl);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.loremIpsumDolor1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.filter {
+  width: 594px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.bookAppointment {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.btnBook,
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnBook {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-4xl);
+}
+.btns {
+  width: 196px;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-white);
+}
+.content,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.content {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.text {
+  width: 1280px;
+  justify-content: flex-start;
+}
+.bannerContent,
+.wavesIcon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.bannerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+}
+.wavesIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.banner {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-150xl) var(--padding-3xs) 0 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  background-image: url(/banner@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 101%;
+  text-align: left;
+  font-size: var(--p3-16-size);
+  color: var(--text-primary);
+  font-family: var(--h2-48);
+}
+@media screen and (max-width: 1050px) {
+  .mediumLengthHero {
+    font-size: var(--font-size-32xl);
+    line-height: 61px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .banner {
+    padding-top: var(--padding-91xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mediumLengthHero {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .wavesIcon {
+    display: none;
+  }
+  .bannerContent {
+    padding-bottom: 20px;
+  }
+}
